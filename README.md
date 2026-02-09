@@ -61,7 +61,39 @@ POST /v3/spotcast
 }
 ```
 
-The API returns an AI-powered marine forecast with safety classifications (GO / CAUTION / NO-GO), detailed weather data, and vessel-specific recommendations.
+**Sample response:**
+```json
+{
+  "id": "spc_MHsijiKNkHdEfsWzrZseMm",
+  "coordinates": {
+    "latitude": 25.7617,
+    "longitude": -80.1918
+  },
+  "forecast_period": {
+    "start_date": "2026-02-09T00:00:00-05:00",
+    "end_date": "2026-02-09T23:59:59-05:00",
+    "num_days": "1"
+  },
+  "trip_duration_hours": "8",
+  "metadata": {
+    "location_name": "Miami Marina"
+  },
+  "latest_forecast": {
+    "status": "completed",
+    "ai_analysis": {
+      "summary": "Excellent calm conditions all day Monday",
+      "daily_classifications": [
+        {
+          "date": "2026-02-09",
+          "classification": "GO",
+          "short_summary": "Outstanding conditions all day with very light winds under 7 knots and calm 1.2-1.6 foot seas at comfortable 8-11 second periods. Best window is early morning with near-glassy conditions.",
+          "summary": "Outstanding boating conditions throughout Monday with exceptionally light winds and calm seas. Early morning offers the calmest window with 1-5 knot east/northeast winds and smooth 1.1-1.4 foot seas at excellent 9-11 second periods. Mid-morning through afternoon continues excellent with light 3-5 knot northwest to north winds and comfortable 1.4-1.5 foot seas at long 11 second periods."
+        }
+      ]
+    }
+  }
+}
+```
 
 ## API Endpoints
 
