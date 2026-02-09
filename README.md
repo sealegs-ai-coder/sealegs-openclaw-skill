@@ -55,7 +55,7 @@ POST /v3/spotcast
 {
   "latitude": 25.7617,
   "longitude": -80.1918,
-  "start_date": "2025-12-05T00:00:00Z",
+  "start_date": "2026-02-10T00:00:00Z",
   "num_days": 2,
   "vessel_info": {"type": "sailboat", "length_ft": 35}  // optional
 }
@@ -64,30 +64,36 @@ POST /v3/spotcast
 **Sample response:**
 ```json
 {
-  "id": "spc_MHsijiKNkHdEfsWzrZseMm",
+  "id": "spc_FrZdSAs6T3cxbXiPtNZvxu",
   "coordinates": {
     "latitude": 25.7617,
     "longitude": -80.1918
   },
   "forecast_period": {
-    "start_date": "2026-02-09T00:00:00-05:00",
-    "end_date": "2026-02-09T23:59:59-05:00",
-    "num_days": "1"
+    "start_date": "2026-02-10T00:00:00-05:00",
+    "end_date": "2026-02-11T23:59:59-05:00",
+    "num_days": "2"
   },
-  "trip_duration_hours": "8",
+  "trip_duration_hours": "12",
   "metadata": {
     "location_name": "Miami Marina"
   },
   "latest_forecast": {
     "status": "completed",
     "ai_analysis": {
-      "summary": "Excellent calm conditions all day Monday",
+      "summary": "Ideal conditions both days with light winds",
       "daily_classifications": [
         {
-          "date": "2026-02-09",
+          "date": "2026-02-10",
           "classification": "GO",
-          "short_summary": "Outstanding conditions all day with very light winds under 7 knots and calm 1.2-1.6 foot seas at comfortable 8-11 second periods. Best window is early morning with near-glassy conditions.",
-          "summary": "Outstanding boating conditions throughout Monday with exceptionally light winds and calm seas. Early morning offers the calmest window with 1-5 knot east/northeast winds and smooth 1.1-1.4 foot seas at excellent 9-11 second periods. Mid-morning through afternoon continues excellent with light 3-5 knot northwest to north winds and comfortable 1.4-1.5 foot seas at long 11 second periods."
+          "short_summary": "Outstanding conditions all day with light winds under 7kt and calm 1.1-1.6ft seas. Best window is morning 5:00 AM-12:00 PM with nearly calm 1-4kt northwest winds and comfortable 1.4ft seas at 11-second periods.",
+          "summary": "Outstanding sailing conditions throughout Monday with exceptionally light winds and calm seas. Morning hours offer the best window with nearly calm 1-4kt northwest winds and comfortable 1.4ft seas at 11-second periods from the northeast."
+        },
+        {
+          "date": "2026-02-11",
+          "classification": "GO",
+          "short_summary": "Exceptional conditions with very light winds 1-6kt and minimal 1.2-1.3ft seas all day. Best window 9:00 AM-1:00 PM offers glassy conditions with 1-3kt winds and 1.2ft seas at 11-second periods.",
+          "summary": "Exceptional boating conditions on Tuesday with very light winds and minimal seas throughout the day. Morning through midday provides ideal glassy conditions with 1-3kt east-southeast winds and 1.2ft seas at 10-11 second periods from the northeast."
         }
       ]
     }
