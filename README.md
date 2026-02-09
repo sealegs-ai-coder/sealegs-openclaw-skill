@@ -76,7 +76,7 @@ The API returns an AI-powered marine forecast with safety classifications (GO / 
 | List SpotCasts | GET /v3/spotcasts | Free |
 | Get balance | GET /v3/account/balance | Free |
 
-## Weather Data Included
+## Weather Factors Used
 
 - Wind speed, gusts, and direction
 - Wave height, period, and direction
