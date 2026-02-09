@@ -53,10 +53,11 @@ clawhub install sealegs-marine-forecast
 // Miami, FL
 POST /v3/spotcast
 {
-  "lat": 25.7617,
-  "lon": -80.1918,
-  "boat_type": "powerboat",
-  "boat_length_ft": 28
+  "latitude": 25.7617,
+  "longitude": -80.1918,
+  "start_date": "2025-12-05T00:00:00Z",
+  "num_days": 2,
+  "vessel_info": {"type": "sailboat", "length_ft": 35}  // optional
 }
 ```
 
