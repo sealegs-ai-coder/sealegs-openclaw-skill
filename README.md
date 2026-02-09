@@ -13,9 +13,9 @@ An OpenClaw skill for getting AI-powered marine weather forecasts via the [SeaLe
 
 ### 1. Get an API Key
 
-1. Sign up at [developer.sealegs.ai](https://developer.sealegs.ai)
-2. Add credits ($10 = 200 forecast-days)
-3. Generate an API key
+1. Sign up at [developer.sealegs.ai](https://developer.sealegs.ai) — you'll get **10 free credits** to get started
+2. Generate an API key
+3. Need more? Add credits anytime ($10 = 200 forecast-days)
 
 ### 2. Configure OpenClaw
 
