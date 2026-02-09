@@ -48,11 +48,19 @@ clawhub install sealegs-marine-forecast
 
 ## Usage Examples
 
-**Get a forecast:**
-> "What's the marine forecast for Miami this Saturday?"
+**Get a forecast for a location:**
+```jsonc
+// Miami, FL
+POST /v3/spotcast
+{
+  "lat": 25.7617,
+  "lon": -80.1918,
+  "boat_type": "powerboat",
+  "boat_length_ft": 28
+}
+```
 
-**Check trip safety:**
-> "Is it safe to take my 35ft sailboat from Key West to Dry Tortugas on Friday?"
+The API returns an AI-powered marine forecast with safety classifications (GO / CAUTION / NO-GO), detailed weather data, and vessel-specific recommendations.
 
 ## API Endpoints
 
