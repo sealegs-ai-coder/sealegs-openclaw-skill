@@ -5,7 +5,7 @@ homepage: https://developer.sealegs.ai
 metadata: {"openclaw": {"requires": {"env": ["SEALEGS_API_KEY"], "bins": ["curl"]}, "primaryEnv": "SEALEGS_API_KEY"}, "emoji": "⛵", "tags": ["weather", "marine", "forecast", "boating", "sailing", "ocean", "waves", "wind"]}
 ---
 
-# SeaLegs Marine Forecast
+# SeaLegs AI Marine Forecast API
 
 Get AI-powered marine weather forecasts for any location worldwide. Includes wind, waves, visibility, precipitation analysis with GO/CAUTION/NO-GO safety classifications.
 

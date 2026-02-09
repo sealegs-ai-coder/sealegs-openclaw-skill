@@ -1,4 +1,4 @@
-# SeaLegs Marine Forecast - OpenClaw Skill
+# SeaLegs AI Marine Forecast API - OpenClaw Skill
 
 An OpenClaw skill for getting AI-powered marine weather forecasts via the [SeaLegs API](https://developer.sealegs.ai).
 
